@@ -59,7 +59,7 @@ import {
     },
   ];
   
-  const technologies = [
+  const technologies = [ //i can add here as many number of balls as i want
     {
       name: "HTML 5",
       icon: html,
