@@ -1,29 +1,29 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
-  } from "../assets";
+  backend,
+  carrent,
+  creator,
+  css,
+  docker,
+  figma,
+  git,
+  html,
+  javascript,
+  jobit,
+  meta,
+  mobile,
+  mongodb,
+  nodejs,
+  reactjs,
+  redux,
+  shopify,
+  starbucks,
+  tailwind,
+  tesla,
+  threejs,
+  tripguide,
+  typescript,
+  web,
+} from "../assets";
   
   export const navLinks = [
     {
@@ -116,8 +116,8 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Rotary Youth Advisory Council Member",
+      company_name: "Rotary International",
       icon: starbucks,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
@@ -135,10 +135,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Providing strategic insights and recommendations for Rotary's Youth Exchange programs to enhance participant engagement and program effectiveness.",
+        "Collaborating with fellow council members and Rotary International staff to develop innovative youth initiatives and projects.",
+        "Facilitating virtual orientations and training sessions to onboard new council members and ensure smooth integration into council activities.",
+        "Ensuring the protection and privacy of personal data by adhering to Rotary's privacy policies and promoting best practices in data management.",
       ],
     },
     {
@@ -262,4 +262,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { experiences, projects, services, technologies, testimonials };
